@@ -33,11 +33,11 @@
 
 1. 登录界面
 
-   ![image-20200503234506691](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234506691.png)
+   ![login](./pic/1.png)
 
    登录页面需要用户输入用户名 与对应密码，后端验证密码与用户名匹配，则显示对应权限的界面，如果结果不匹配，则会给出提示。
 
-   ![image-20200503234534648](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234534648.png)
+   ![login_fail](./pic/2.png)
 
    
 
@@ -47,25 +47,25 @@
 
    管理员权限
 
-   ![image-20200503234603639](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234603639.png)
+   ![main_board](./pic/3.png)
 
    会员权限，注意右上角权限不同
 
-   ![image-20200503234437539](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234437539.png)
+   ![member](./pic/4.png)
 
 3. 图书查询模块
 
    - 根据编号精确查询
 
-     ![image-20200503234417073](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234417073.png)
+     ![query1](./pic/5.png)
 
    - 根据分类等进行模糊查询
 
-     ![image-20200503234349019](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234349019.png)
+     ![query2](./pic/6.png)
 
    - 根据出版年份进行区间查询
 
-     ![image-20200503234306035](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234306035.png)
+     ![query3](./pic/7.png)
 
      
 
@@ -73,19 +73,19 @@
 
    点击借书按钮后会弹出Modal，填写后提交即可借书，借书成功会有提示，并且该书库存-1
 
-   ![image-20200503234802866](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234802866.png)
+   ![borrowBook](./pic/8.png)
 
    如果不输入编号，则会进行提示
 
-   ![image-20200503234845365](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234845365.png)
+   ![borrow2](./pic/9.png)
 
    输入编号不存在，会给出提示
 
-   ![image-20200503234914758](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503234914758.png)
+   ![borrow3](./pic/10.png)
 
    库存为0，会给出提示
 
-   ![image-20200503235202922](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235202922.png)
+   ![borrow4](./pic/11.png)
 
    
 
@@ -93,7 +93,7 @@
 
    没有借书，则会给出提示
 
-   ![image-20200503235329942](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235329942.png)
+   ![return](./pic/12.png)
 
    
 
@@ -101,11 +101,11 @@
 
    - 单个导入，允许除主键以外的值为空，导入数量必须填写，否则会给出提示
 
-     ![image-20200503235504193](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235504193.png)
+     ![import_one](./pic/13.png)
 
-   - 批量导入(已删除)
+   - 批量导入(已删除 自行添加.jpg)
 
-     ![image-20200503235806867](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235806867.png)
+     ![import2](./pic/14.png)
 
      
 
@@ -113,12 +113,12 @@
 
    进入管理员权限后，左侧会出现成员管理导航栏，进入后可以对成员进行添加，删除，对管理员进行添加
 
-   ![image-20200503235919260](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235919260.png)
+   ![manage1](./pic/15.png)
 
-   ![image-20200503235949645](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200503235949645.png)
+   ![manage2](./pic/16.png)
 
    添加后：
 
-   ![image-20200504000008274](C:\Users\24479\AppData\Roaming\Typora\typora-user-images\image-20200504000008274.png)
+   ![add3](./pic/17.png)
 
    
